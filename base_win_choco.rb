@@ -16,4 +16,4 @@ cookbook 'chef-client', git: 'https://github.com/snohio/chef-client.git', branch
 cookbook 'win_choco', git: 'https://github.com/snohio/win_choco.git', branch: 'main'
 
 default['audit']['reporter'] = 'chef-server-automate', 'cli'
-
+default['audit']['compliance_phase'] = true
